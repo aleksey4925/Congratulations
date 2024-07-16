@@ -1,0 +1,59 @@
+#root {
+  font-family: Arial, sans-serif;
+}
+  
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+div > label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.check_photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.check_item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.check_item img {
+  width: 100%;
+}
+
+.check_item input {
+  margin-top: 10px;
+}
